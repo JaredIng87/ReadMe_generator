@@ -17,11 +17,12 @@ function generateMarkdown({title, description, installation, usage, contributing
   ${description}
 
   ## Table of Contents
-  -Installation
-  -Usage
-  -Contributing
-  -Tests
-  -Liscense
+
+  1. [Installation](#installation)
+  2. [Usage](#usage)
+  3. [Contributing](#contributing)
+  4. [Tests](#tests)
+  5. [Liscense](#liscense)
   
   ## Installation
   
