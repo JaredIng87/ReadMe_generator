@@ -1,6 +1,6 @@
-# Readme Generator
+# readme generator
 
-  this app This app was created to help the user write a proffesional readme file for their app
+  this app is used to create professional readme files
 
   ## Table of Contents
 
@@ -12,11 +12,11 @@
   
   ## Installation
   
-  none
+  must install inquirer npm package
   
   ## Usage
   
-  open the terminal and run npm install. Then run node index.js. then answer all questions in terminal
+  first run npm instal from your terminal. then run node index.js. then answer all questions in terminal
   
   ## Contributing
   
