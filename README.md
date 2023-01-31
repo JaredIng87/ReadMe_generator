@@ -2,6 +2,9 @@
 
   This app can be used to create a professional readMe file for future apps.
 
+  Github Repo: https://github.com/JaredIng87/ReadMe_generator.<br>
+  Usage Video: https://drive.google.com/file/d/15HId6tyvzqlXUe-Lje4kXEOgsTl2Bbnq/view
+
   ## Table of Contents
 
   1. [Installation](#installation)
