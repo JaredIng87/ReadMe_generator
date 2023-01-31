@@ -1,9 +1,9 @@
-// TODO: Include packages needed for this application
+//Include packages needed for this application
 const inquirer = require('inquirer');
 const { writeFile } = require('fs').promises;
 const markdown = require('./utils/generateMarkdown.js');
 
-// TODO: Create an array of questions for user input
+//an array of questions for user input
 const questions = () => {
   return inquirer.prompt([
     {
@@ -27,9 +27,11 @@ const questions = () => {
       message: 'How do you use the app?',
     },
     {
-      type: 'input',
-      name: 'liscense',
-      message: 'what liscence does the app have?',
+      type: 'list',
+      name: 'license',
+      message: 'Choose your license.',
+      choices: ['MIT', 'GPL', 'Apache 2.0', 'MPL-2.0'],
+      default: 'MIT',
     },
     {
       type: 'input',
@@ -46,7 +48,7 @@ const questions = () => {
 
 
 
-// TODO: Create a function to initialize app
+//function to initialize app
 const init = () => {
   questions()
     .then((answers) => writeFile('README.md', markdown(answers)))

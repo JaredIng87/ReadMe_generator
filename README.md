@@ -1,6 +1,6 @@
-# readme generator
+# ReadMe Generator
 
-  this app is used to create professional readme files
+  This app can be used to create a professional readMe file for future apps.
 
   ## Table of Contents
 
@@ -8,15 +8,15 @@
   2. [Usage](#usage)
   3. [Contributing](#contributing)
   4. [Tests](#tests)
-  5. [Liscense](#liscense)
+  5. [License](#license)
   
   ## Installation
   
-  must install inquirer npm package
+  User must run npm install from their terminal to install all necessary packages
   
   ## Usage
   
-  first run npm instal from your terminal. then run node index.js. then answer all questions in terminal
+  After running npm install, run npm start from your terminal. Then, answer all questions. once finished, your readMe file will be available.
   
   ## Contributing
   
@@ -27,5 +27,13 @@
   n/a
   
   ## License
-  
-  n/a
+
+ ```md
+ MIT 
+```
+
+Link to license text:
+https://opensource.org/licenses/MIT
+
+
+![badge](https://img.shields.io/badge/license-MIT-lightgreen)
